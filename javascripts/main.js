@@ -5,10 +5,10 @@ $(document).ready(function () {
     $(document).keydown(function(key) {
         switch(parseInt(key.which,10)) {
             case 65:
-                $('#guy').animate({left: "-=50px"}, fast);
+                $('#guy').animate({left: "-=50px"}, "fast");
                 break;
             case 68:
-                $('#guy').animate({left: "+=50px"}, fast);
+                $('#guy').animate({left: "+=50px"}, "fast");
                 break;
             default:
                 break;

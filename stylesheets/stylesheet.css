@@ -11,6 +11,13 @@ p{
     font-size: 30px;
     font-family: Impact;
 }
+
+#guy {
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
 #ball {
     border-radius: 50%;
     background-color: orange;

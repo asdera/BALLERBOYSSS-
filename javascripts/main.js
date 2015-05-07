@@ -1,16 +1,13 @@
 $(document).ready(function () { 
-$('baller').mouseenter(function() {
+$('img').mouseenter(function() {
        $(this).fadeTo('slow', 0.2);
    });
-   $('baller').mouseleave(function() {
+   $('img').mouseleave(function() {
        $(this).fadeTo('slow', 1);
    });
-   $('#baller').click(function() {
-       $(this).addClass('highlighted');
-       red.pick = true
-       check()
-       switchy()
-   });
+   $('img').click(function () {
+          $(this).effect("bounce", { times:5 }, 1000);
+    });
     var bouncetime = 1000;
     var ballheight = 280;
     var ballsize = 80;

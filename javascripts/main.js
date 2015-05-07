@@ -3,6 +3,7 @@ $(document).ready(function () {
           $(this).effect("bounce", { times:5 }, 1000);
     });
 });
+Physics(function(world){
 var ball = Physics.body('circle', {
     x: 50, // x-coordinate
     y: 30, // y-coordinate
@@ -12,3 +13,5 @@ var ball = Physics.body('circle', {
 });
 // add the circle to the world
 world.add( ball );
+
+});

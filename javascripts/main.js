@@ -2,6 +2,8 @@
 $(document).ready(function () { 
    $('img').click(function () {
           $(this).effect("bounce", { times:5 }, 1000);
+          var audio = new Audio('horse.mp3');
+audio.play();
     });
     $(document).keydown(function(key) {
         switch(parseInt(key.which,10)) {
